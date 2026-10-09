@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sample</name>
+    <Placemark>
+      <name>Plot A</name>
+      <description>A small test polygon</description>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>
+        77.0,12.0,0 77.001,12.0,0 77.001,12.001,0 77.0,12.001,0 77.0,12.0,0
+      </coordinates></LinearRing></outerBoundaryIs></Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Road B</name>
+      <LineString><coordinates>77.0,12.0,0 77.0,12.01,0</coordinates></LineString>
+    </Placemark>
+    <Placemark>
+      <name>Point C</name>
+      <Point><coordinates>77.005,12.005,0</coordinates></Point>
+    </Placemark>
+  </Document>
+</kml>
